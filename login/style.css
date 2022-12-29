@@ -1,0 +1,30 @@
+.cons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: fit-content;
+    padding: 40px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate( -50%);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: blue;
+}
+
+input{
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.cons button{
+    padding: 5px 10px;
+}

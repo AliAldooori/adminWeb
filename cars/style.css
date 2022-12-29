@@ -1,0 +1,48 @@
+.cons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+ th, td{
+    padding: 5px 20px;
+}
+
+#buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.btn-edit{
+    color: orange;
+}
+.btn-remove{
+    color: red;
+}
+button{
+    padding: 4px 10px;
+    min-width: 80px;
+}
+
+#pop{
+    border: 1px solid salmon;
+    grid-column: span 2;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5px;
+    padding: 10px;
+}
+
+.btn-edit, .btn-remove{
+    max-height: 30px;
+}
+
+#pop.hidden{
+    display: none;
+}

@@ -1,0 +1,30 @@
+*, *::before, *::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+nav{
+    width: 100%;
+    background: rgb(232, 232, 232);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+.nav-btn{
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    background: none;
+    cursor: pointer;
+}
+.nav-btn:hover{
+    color: red;
+}
+
+.hidden{
+    display: none;
+}
