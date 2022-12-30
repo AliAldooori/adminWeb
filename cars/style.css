@@ -22,6 +22,9 @@ table, th, td{
 .btn-edit{
     color: orange;
 }
+.btn-add{
+    color: green;
+}
 .btn-remove{
     color: red;
 }
@@ -30,7 +33,7 @@ button{
     min-width: 80px;
 }
 
-#pop{
+#pop , #pop2{
     border: 1px solid salmon;
     grid-column: span 2;
     display: grid;
@@ -39,7 +42,7 @@ button{
     padding: 10px;
 }
 
-.btn-edit, .btn-remove{
+.btn-edit, .btn-remove , .btn-add{
     max-height: 30px;
 }
 

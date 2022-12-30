@@ -34,3 +34,21 @@ tr:hover{
     cursor: pointer;
     color: blue;
 }
+
+.modal{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+    align-items: center;
+}
+
+.show{
+    display: flex;
+}
